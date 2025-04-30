@@ -1,0 +1,91 @@
+using galaxy 
+
+qiime2 demux summarize
+Summarize counts per sample.
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings 
+this was then visualized on view.qiime2.com
+
+ qiime2 dada2 denoise-paired
+Denoise and dereplicate paired-end sequences
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings except truncated forward reads 15 and reverse reads 18
+
+ qiime2 feature-table summarize
+Summarize table
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings except adding in metadata.txt
+
+ qiime2 feature-table tabulate-seqs
+View sequence associated with each feature
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings 
+
+ qiime2 feature-classifier classify-sklearn
+Pre-fitted sklearn-based taxonomy classifier
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings 
+
+ qiime2 metadata tabulate
+Interactively explore Metadata in an HTML table
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings 
+
+ qiime2 taxa barplot
+Visualize taxonomy with an interactive bar plot
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings 
+
+ qiime2 taxa filter-table
+Taxonomy-based feature table filter.
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings
+
+ qiime2 feature-table summarize
+Summarize table
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings 
+
+qiime2 diversity alpha-group-significance
+Alpha diversity comparisons
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+
+ qiime2 diversity beta-group-significance
+Beta diversity group significance
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings and category for population using Bray-curtis
+ 
+qiime2 diversity beta-group-significance
+Beta diversity group significance
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings and category for sex using bray-curtis
+
+ qiime2 diversity beta-group-significance
+Beta diversity group significance
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings and category for flock using bray-Curtis
+
+ qiime2 diversity beta-group-significance
+Beta diversity group significance
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings and category for population using weighted Unifac 
+ 
+qiime2 diversity beta-group-significance
+Beta diversity group significance
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings and category for sex using weighted Unifac
+
+ qiime2 diversity beta-group-significance
+Beta diversity group significance
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with default settings and category for flock using weighted Unifac
+
+ qiime2 composition ancombc
+Analysis of Composition of Microbiomes with Bias Correction
+(Galaxy Version 2024.10.0+q2galaxy.2024.10.0)
+with flock + population + sex added 
+
+
+
+
+
